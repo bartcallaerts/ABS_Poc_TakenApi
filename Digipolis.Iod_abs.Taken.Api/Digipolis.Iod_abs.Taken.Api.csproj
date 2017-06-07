@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Narato.Common" Version="2.1.5" />
+    <PackageReference Include="SwaggerGenerator" Version="1.1.0" />
+    <PackageReference Include="SwaggerUi" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Digipolis.Iod_abs.Taken.Domain\Digipolis.Iod_abs.Taken.Domain.csproj" />
+    <ProjectReference Include="..\Digipolis.Iod_abs.Taken.Manager\Digipolis.Iod_abs.Taken.Manager.csproj" />
+    <ProjectReference Include="..\Digipolis.Iod_abs.Taken.Service\Digipolis.Iod_abs.Taken.Service.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.ServiceModel.Activities">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\System.ServiceModel.Activities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

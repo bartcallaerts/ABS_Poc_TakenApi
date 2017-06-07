@@ -1,0 +1,10 @@
+﻿{
+  "ApiConfiguration":
+  {
+    "WorkflowEngineConfig": {
+      "TenantId": "8e0f3c9e-0d4a-11e7-a1f0-005056b32b05",
+      "ApiKey": "572b32e9-d26b-488d-94f6-c5e71e791d22",
+      "BaseUrl": "https://api-gw-o.antwerpen.be/acpaas/workflow/v1/"
+    }
+  }
+}

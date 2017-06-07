@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digipolis.Iod_abs.Taken.Api", "Digipolis.Iod_abs.Taken.Api\Digipolis.Iod_abs.Taken.Api.csproj", "{E0B03B96-6D56-4942-AE0A-188BE156DB66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digipolis.Iod_abs.Taken.Manager", "Digipolis.Iod_abs.Taken.Manager\Digipolis.Iod_abs.Taken.Manager.csproj", "{28A2F229-6CEC-4FCB-9EAD-8B70DDC42513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digipolis.Iod_abs.Taken.Service", "Digipolis.Iod_abs.Taken.Service\Digipolis.Iod_abs.Taken.Service.csproj", "{0A795E20-788B-46ED-AD1E-4D5F45627708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digipolis.Iod_abs.Taken.Domain", "Digipolis.Iod_abs.Taken.Domain\Digipolis.Iod_abs.Taken.Domain.csproj", "{4719E93B-1930-426F-B44A-E8E8140AE5AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digipolis.Iod_abs.Taken.Common", "Digipolis.Iod_abs.Taken.Common\Digipolis.Iod_abs.Taken.Common.csproj", "{4FB8C504-2ECC-4BFC-A100-B2D0690C125C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0B03B96-6D56-4942-AE0A-188BE156DB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B03B96-6D56-4942-AE0A-188BE156DB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B03B96-6D56-4942-AE0A-188BE156DB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B03B96-6D56-4942-AE0A-188BE156DB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A2F229-6CEC-4FCB-9EAD-8B70DDC42513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A2F229-6CEC-4FCB-9EAD-8B70DDC42513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A2F229-6CEC-4FCB-9EAD-8B70DDC42513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A2F229-6CEC-4FCB-9EAD-8B70DDC42513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A795E20-788B-46ED-AD1E-4D5F45627708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A795E20-788B-46ED-AD1E-4D5F45627708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A795E20-788B-46ED-AD1E-4D5F45627708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A795E20-788B-46ED-AD1E-4D5F45627708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4719E93B-1930-426F-B44A-E8E8140AE5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4719E93B-1930-426F-B44A-E8E8140AE5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4719E93B-1930-426F-B44A-E8E8140AE5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4719E93B-1930-426F-B44A-E8E8140AE5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB8C504-2ECC-4BFC-A100-B2D0690C125C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB8C504-2ECC-4BFC-A100-B2D0690C125C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB8C504-2ECC-4BFC-A100-B2D0690C125C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB8C504-2ECC-4BFC-A100-B2D0690C125C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
